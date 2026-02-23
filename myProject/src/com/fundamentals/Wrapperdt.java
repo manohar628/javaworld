@@ -16,6 +16,9 @@ public class Wrapperdt {
 		Integer i5= 222;
 		
 		System.out.println(i4==i5);
+		Integer i6=257;
+		Integer i7=257;
+		System.out.println(i6==i7);
 	}
 
 }
