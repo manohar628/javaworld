@@ -10,7 +10,7 @@ public class LoginSystem {
 	System.out.println("enter username");
 		String username=sc.next();
 		String Password=sc.next();
-		if (username.equals("admin")) {
+		if (username.equalsIgnoreCase("admin")) {
 			if(Password.equals("@12345")) {
 				System.out.println("login succesfull");
 				
