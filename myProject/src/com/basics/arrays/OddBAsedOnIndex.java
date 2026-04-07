@@ -1,6 +1,6 @@
 package com.basics.arrays;
 
-public class OddArr {
+public class OddBAsedOnIndex {
 
 	public static void main(String[] args) {
 		int[] arr = { 10, 15, 20, 25, 30 };
@@ -8,7 +8,7 @@ public class OddArr {
 		int count=0;
 		for (int i = 0; i < arr.length; i++) {
 
-			if (arr[i] % 2 == 1) {
+			if (i% 2 !=0 ) {
 				sum+=arr[i];
 				System.out.println("Odd number from array : " + arr[i]);
 				count++;
@@ -18,4 +18,6 @@ public class OddArr {
 		System.out.println(" Number of odd Numbers  "+count);
 	}
 
-}
+	}
+
+
