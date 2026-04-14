@@ -36,7 +36,7 @@ public class Secondlargemy {
 
 
 	public static void main(String[] args) {
-		int[] arr = { 45, 23, 101, 89, 111, 44, 106, 1 };
+		int[] arr = { 100,10,29,36,45,78,90};
 
 		int result = findSecondLargest(arr);
 		System.out.println("Second  large Number = " + result);
