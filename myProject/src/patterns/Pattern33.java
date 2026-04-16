@@ -1,0 +1,18 @@
+package patterns;
+
+public class Pattern33 {
+
+	public static void main(String[] args) {
+		char c=65;
+//		char c='A';
+		for(int i=1;i<=3;i++) {
+			for(int j=1;j<=3;j++) {
+				System.out.print(c);
+				c++;
+				
+			}
+			System.out.println();
+		}
+	}
+
+}
